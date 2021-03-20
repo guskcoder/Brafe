@@ -1,0 +1,76 @@
+/* carrinho */
+.sidemenu {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 999999999; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #fff; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+	color:#000;
+}
+
+/* The sidebar links */
+.sidemenu a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidemenu a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidemenu .closebtn-2 {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn-2 {
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #fff;
+  color: #444;
+  padding: 10px 5px;
+  border: none;
+}
+
+.openbtn-2:hover {
+  background-color: #fff;
+	color: #fff;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main-2 {
+  transition: margin-left .5s; /* If you want a transition effect */
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidemenu {padding-top: 15px;}
+  .sidemenu a {font-size: 18px;}
+}
+
+@media (min-width:425px){
+	#mymenu{
+		display: none !important;
+	}
+	
+	#main-2{
+		display: none !important;
+	}
+}
+
+/* fim carrinho */
